@@ -17,6 +17,8 @@ const duas = [
     },
 ]
 
+let currentIndex = 0;
+
 
 
 
