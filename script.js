@@ -24,6 +24,22 @@ const duas = [
         arabic: "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ الْوَهَّابُ",
         english: "Our Lord, do not let our hearts deviate after You have guided us, and bestow upon us mercy from Yourself. Indeed, You are the Bestower.",
     },
+    {
+        duaTitle:"Dua for Protection from Hellfire",
+        arabic:"رَبَّنَآ إِنَّنَآ ءَامَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ النَّارِ",
+        english:"Our Lord! We have indeed believed, so forgive us our sins and save us from the punishment of the Fire..",
+    },
+    {
+        duaTitle:"Dua for Acceptance of Good Deeds",
+        arabic:"رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
+        english:"Our Lord, accept [this] from us. Indeed You are the Hearing, the Knowing.",
+    },
+    {
+        duaTitle:"Dua for Forgiveness and Well-being",
+        arabic:"اللَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي، وَعَافِنِي، وَارْزُقْنِي",
+        english:"Ya Allah, forgive me and have mercy on me, provide for me, and give me good health.",
+    },
+
 ]
 
 let currentIndex = 0;
