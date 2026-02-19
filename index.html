@@ -23,6 +23,7 @@
   <body
     class="bg-linear-to-b from-[#0f172a] via-[#0b1a3a] to-[#020617] min-h-screen flex flex-col items-center justify-center relative overflow-hidden "
   >
+
     <div>
       <!-- Header -->
       <header class="text-center px-4 shrink-0 flex-1">
@@ -30,10 +31,10 @@
           🌙 Ramadan Dua
         </h1>
       </header>
-
+      
       <!-- Main content -->
-      <main
-          class="bg-linear-to-br from-blue-900 to-indigo-800 border-4 border-yellow-500 rounded-3xl shadow-2xl p-6 md:p-12 w-full mx-auto flex-1 text-center relative max-w-full md:max-w-[700px]"
+      <main id="duaCard"
+          class=" fade-in bg-linear-to-br from-blue-900 to-indigo-800 border-4 border-yellow-500 rounded-3xl shadow-2xl p-6 md:p-12 w-full mx-auto flex-1 text-center relative max-w-full md:max-w-[700px]"
         >
           <!-- Dua Title -->
           <h2 id="duaTitle" class="text-xl md:text-2xl font-bold text-yellow-400 text-shadow-2xs mb-4">
@@ -78,9 +79,7 @@
                active:scale-95">
               Next
             </button>
-          </div>
-
-      
+          </div>      
       </main>
     </div>
     <script src="script.js"></script>

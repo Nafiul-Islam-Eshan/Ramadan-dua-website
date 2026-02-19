@@ -29,16 +29,25 @@ const duas = [
 let currentIndex = 0;
 
 function showDua(index) {
+
     const dua = duas[index];
     document.getElementById("duaTitle").textContent = dua.duaTitle;
     document.getElementById("duaArabic").textContent = dua.arabic;
     document.getElementById("duaEnglish").textContent = dua.english;
 }
 
+function fadeIn() {
+    const duaCard = document.getElementById("duaCard");
+    duaCard.classList.remove("fade-in");
+    void duaCard.offsetWidth;
+    duaCard.classList.add("fade-in");
+}
+
 document.getElementById("previous").addEventListener("click", function(){
     if (currentIndex > 0) {
         currentIndex--;
         showDua(currentIndex);
+        fadeIn();
     }
 });
 
@@ -46,10 +55,14 @@ document.getElementById("next").addEventListener("click", function(){
     if (currentIndex < duas.length - 1) {
         currentIndex++;
         showDua(currentIndex);
+        fadeIn();
     }
 });
 
 showDua(currentIndex);
+fadeIn();
+
+
 
 
 
