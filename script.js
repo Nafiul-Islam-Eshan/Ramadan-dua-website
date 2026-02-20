@@ -39,6 +39,11 @@ const duas = [
         arabic:"اللَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي، وَعَافِنِي، وَارْزُقْنِي",
         english:"Ya Allah, forgive me and have mercy on me, provide for me, and give me good health.",
     },
+    {
+        duaTitle:"Dua when you see the Crescent Moon",
+        arabic:"اللَّهمَّ أَهلَّهُ علينَا بالأمنِ والإيمانِ والسَّلامةِ والإسلامِ ربِّي وربُّكَ اللَّهُ",
+        english:"Oh Allah, make it a start full of peace and faith, safety and Islam.  My lord and your lord is Allah.",
+    },
 
 ]
 
