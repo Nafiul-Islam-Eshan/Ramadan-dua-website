@@ -44,6 +44,11 @@ const duas = [
         arabic:"اللَّهمَّ أَهلَّهُ علينَا بالأمنِ والإيمانِ والسَّلامةِ والإسلامِ ربِّي وربُّكَ اللَّهُ",
         english:"Oh Allah, make it a start full of peace and faith, safety and Islam.  My lord and your lord is Allah.",
     },
+    {
+        duaTitle:"সেহরির জাদুকরী দোয়া",
+        arabic:"اللَّهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا",
+        english:" হে আল্লাহ, এই খাবারে বরকত দিন। আমার রোজাকে কবুল করুন। আমার শরীরকে সারাদিন ইবাদতের শক্তি দিন।",
+    },
 
 ]
 
